@@ -7,7 +7,7 @@ A **Deep Learning-based application** that classifies different types of rice fr
 ## 🚀 Demo
 
 Try the deployed application here:  
-[**Rice Classifier Web App**](https://rice-classifier-6wjfpv7nsdjkghzqxt7pl6.streamlit.app/)
+[**Rice Classifier Web App**]((https://rice-grain-classifier-project.streamlit.app/))
 
 ---
 

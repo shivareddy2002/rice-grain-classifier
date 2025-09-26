@@ -114,18 +114,12 @@ flowchart LR
     E --> F[Project Deployment: Streamlit / FastAPI]
 
     %% Styles
-    classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000;
-    classDef data fill=#4FC3F7,stroke=#0277BD,stroke-width=2px,color=#fff;
-    classDef process fill=#AED581,stroke=#33691E,stroke-width=2px,color=#000;
-    classDef model fill=#BA68C8,stroke=#4A148C,stroke-width=2px,color=#fff;
-    classDef result fill=#FF8A65,stroke=#BF360C,stroke-width=2px,color=#fff;
-    classDef deploy fill=#90CAF9,stroke=#0D47A1,stroke-width=2px,color=#000;
+    style A fill:#FFD54F,stroke:#F57F17,stroke-width:2px,color:#000;
+    style B fill:#4FC3F7,stroke:#0277BD,stroke-width:2px,color:#fff;
+    style C fill:#AED581,stroke:#33691E,stroke-width:2px,color:#000;
+    style D fill:#BA68C8,stroke:#4A148C,stroke-width:2px,color:#fff;
+    style E fill:#FF8A65,stroke:#BF360C,stroke-width:2px,color:#fff;
+    style F fill:#90CAF9,stroke:#0D47A1,stroke-width:2px,color:#000;
 
-    class A step
-    class B data
-    class C process
-    class D model
-    class E result
-    class F deploy
 
 

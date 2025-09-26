@@ -107,10 +107,10 @@ Contributions are welcome!
 ```mermaid
 flowchart LR
     A[📥 Import Libraries]:::step --> B[🖼️ Load Image Dataset]:::data
-    B --> C[⚙️ Preprocessing<br/>(Augmentation, Normalization)]:::process
-    C --> D[🧠 Model Building<br/>(CNN)]:::model
+    B --> C[⚙️ Preprocessing<br/>-Augmentation, Normalization]:::process
+    C --> D[🧠 Model Building<br/>-CNN]:::model
     D --> E[📊 Prediction Result]:::result
-    E --> F[🌐 Project Deployment<br/>(Streamlit/FastAPI)]:::deploy
+    E --> F[🌐 Project Deployment<br/>-Streamlit/FastAPI]:::deploy
 
     %% Styles
     classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000,font-weight=bold;

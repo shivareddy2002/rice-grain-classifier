@@ -6,7 +6,7 @@ Built with **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactiv
 ---
 
 ## 🔗 Live Demo  
-<p align="center">👉 <strong>Rice Grain Classifier Web App</strong></p>
+<p align="center">👉 Visit <strong>Rice Grain Classifier Web App</strong></p>
 <p align="center">
   <a href="https://rice-grain-classifier-project.streamlit.app/">
     <img src="https://img.shields.io/badge/Demo-ClickHere-success?logo=streamlit&logoColor=white&color=ff4b4b" alt="Live Demo Badge">

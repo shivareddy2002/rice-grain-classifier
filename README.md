@@ -102,15 +102,16 @@ Contributions are welcome!
 - [💼 LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/) [🌐 GitHub](https://github.com/shivareddy2002)  
 
 ---
+
 ## 📌 Project Workflow  
 
 ```mermaid
 flowchart LR
     A[Import Libraries] --> B[Load Image Dataset]
-    B --> C[Preprocessing (Augmentation, Normalization)]
-    C --> D[Model Building (CNN)]
+    B --> C[Preprocessing: Augmentation, Normalization]
+    C --> D[Model Building: CNN]
     D --> E[Prediction Result]
-    E --> F[Project Deployment (Streamlit/FastAPI)]
+    E --> F[Project Deployment: Streamlit / FastAPI]
 
     %% Styles
     classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000;
@@ -126,4 +127,5 @@ flowchart LR
     class D model
     class E result
     class F deploy
+
 

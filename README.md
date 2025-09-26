@@ -1,32 +1,34 @@
 # 🌾 Rice Type Classifier
 
-A **Deep Learning-based application** that classifies different types of rice from an image. Built using **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactive web interface.
+## 🍚 Deep Learning Web App for Classifying Rice Varieties
+
+A **Deep Learning–based application** that classifies different types of rice from an uploaded image.  Built using **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactive web interface.
 
 ---
 
 ## 🚀 Live Demo
 
 Try the deployed application here:  
-[**Rice Grain Classifier Web App**](https://rice-grain-classifier-project.streamlit.app/)
+[**👉 Rice Grain Classifier Web App**](https://rice-grain-classifier-project.streamlit.app/)
 
 ---
 
-## 🍚 Features
-
-- Upload a rice grain image and get predictions instantly  
-- Shows **Top-K predictions** with confidence scores  
-- Supports multiple rice varieties:  
+## ✨ Key Features
+- 📤 Upload & Predict – Upload a single rice grain image and get instant predictions
+- 🔎 Top-K Results – Shows the most probable varieties with confidence scores
+- 🌾 Supports multiple rice varieties:  
   - Arborio  
   - Basmati  
   - Ipsala  
   - Jasmine  
   - Karacadag
   
-<img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/178f4b91-d4b1-41a9-b45f-243937f88f8f" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/178f4b91-d4b1-41a9-b45f-243937f88f8f" width="700" height="250" alt="Rice Classifier Demo">
+</p>
 
-- Clean and interactive **web interface**  
-- Lightweight and easy to deploy  
-- Real-time predictions using **Convolutional Neural Networks (CNNs)**  
+-  💻 Clean Web UI – Simple and interactive Streamlit interface
+- ⚡ Real-Time CNN Predictions – Powered by a custom-trained Convolutional Neural Network
 
 ---
 
@@ -40,31 +42,44 @@ Try the deployed application here:
 
 ## 🛠️ Tech Stack
 
-- **Python 3.8+** – Core programming language  
-- **TensorFlow / Keras** – Deep learning model  
-- **Streamlit** – Web app interface  
-- **FastAPI** – REST API support  
-- **OpenCV & PIL** – Image processing  
-- **NumPy / Pandas** – Data handling  
-- **Matplotlib / Seaborn** – Visualizations (optional)  
+| Technology       | Purpose                          |
+|------------------|-----------------------------------|
+| **Python 3.8+**  | Core Programming                  |
+| **TensorFlow / Keras** | Deep Learning (CNN model)   |
+| **Streamlit**    | Web App Interface                 |
+| **FastAPI**      | Optional REST API backend         |
+| **OpenCV & PIL** | Image Preprocessing               |
+| **NumPy / Pandas** | Data Handling                   |
+| **Matplotlib / Seaborn** | Training Visualizations   |
 
 ---
 
-## 🔮 How it Works
+## 🔮 How It Works
 
-1. Upload a rice grain image (JPG/PNG)  
-2. The model **preprocesses** and **resizes** the image  
-3. Predictions are made across the supported rice varieties  
-4. Results are displayed with **confidence scores**  
+1️⃣ **Upload** a rice grain image (JPG/PNG).  
+2️⃣ The model **preprocesses** the image (resize → normalize).  
+3️⃣ A **CNN model** predicts the probabilities of each variety.  
+4️⃣ The app displays the **Top-K predictions with confidence scores**.
 
 ---
+## 🖼️ Screenshots
+
+### 🌾 Home Page
+![Upload Page](assets/Screenshot%202025-09-21%20234547.png)
+
+### 🔍 Prediction Page
+![Prediction Page](assets/Screenshot%202025-09-21%20234630.png)
+
+### 📊 Confidence Score View
+![Confidence View](assets/Screenshot%202025-09-21%20234755.png)
+
 
 ## ✨ Future Enhancements
 
-- Add more rice varieties  
-- Deploy on **Hugging Face Spaces**, **AWS**.  
-- Mobile-friendly UI  
-- Batch prediction for multiple grains at once  
+- ➕ Add more rice varieties and larger datasets
+- 📱 Mobile-friendly responsive UI
+- ☁️ Deploy on Hugging Face Spaces, AWS, or GCP
+- 🧩 Batch prediction for multiple grains at once
 
 ---
 
@@ -83,5 +98,5 @@ Contributions are always welcome!
 - 📍 Available for internships & Job offer 
 - 💌 Contact Me : 9346493592
 - 📍 [LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/) | [GitHub](https://github.com/shivareddy2002)
-- Interests: Python, Machine Learning, Data Science  
+- 💡 Interests: Python | Machine Learning | Deep Learning | Data Science 
 

@@ -1,6 +1,4 @@
-# 🌾 Rice Type Classifier
-
-## 🍚 Deep Learning Web App for Classifying Rice Varieties
+# 🌾 Rice Type Classifier using CNN
 
 A **Deep Learning–based application** that classifies different types of rice from an uploaded image.  Built using **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactive web interface.
 
@@ -22,11 +20,6 @@ Try the deployed application here:
   - Ipsala  
   - Jasmine  
   - Karacadag
-  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/178f4b91-d4b1-41a9-b45f-243937f88f8f" width="700" height="250" alt="Rice Classifier Demo">
-</p>
-
 -  💻 Clean Web UI – Simple and interactive Streamlit interface
 - ⚡ Real-Time CNN Predictions – Powered by a custom-trained Convolutional Neural Network
 
@@ -65,13 +58,13 @@ Try the deployed application here:
 ## 🖼️ Screenshots
 
 ### 🌾 Home Page
-![Upload Page](assets/Screenshot%202025-09-21%20234547.png)
+![Upload Page](galary_rice/Screenshot%202025-09-21%20234547.png)
 
 ### 🔍 Prediction Page
-![Prediction Page](assets/Screenshot%202025-09-21%20234630.png)
+![Prediction Page](galary_rice/Screenshot%202025-09-21%20234630.png)
 
 ### 📊 Confidence Score View
-![Confidence View](assets/Screenshot%202025-09-21%20234755.png)
+![Confidence View](galary_rice/Screenshot%202025-09-21%20234755.png)
 
 
 ## ✨ Future Enhancements
@@ -87,9 +80,9 @@ Try the deployed application here:
 
 Contributions are always welcome!  
 
-1. Fork the repository 🍴  
-2. Create a feature branch 🌱  
-3. Submit a pull request 🚀  
+1. 🍴  Fork the repository 
+2. 🌱  Create a feature branch
+3. 🚀  Submit a pull request 
 
 ---
 ## 👨‍💻 Author

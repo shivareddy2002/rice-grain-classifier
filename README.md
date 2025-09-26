@@ -106,16 +106,24 @@ Contributions are welcome!
 
 ```mermaid
 flowchart LR
-    A[📥 Import Libraries]:::step --> B[🖼️ Load Image Dataset]:::data
-    B --> C[⚙️ Preprocessing<br/>-Augmentation, Normalization]:::process
-    C --> D[🧠 Model Building<br/>-CNN]:::model
-    D --> E[📊 Prediction Result]:::result
-    E --> F[🌐 Project Deployment<br/>-Streamlit/FastAPI]:::deploy
+    A[Import Libraries] --> B[Load Image Dataset]
+    B --> C[Preprocessing (Augmentation, Normalization)]
+    C --> D[Model Building (CNN)]
+    D --> E[Prediction Result]
+    E --> F[Project Deployment (Streamlit/FastAPI)]
 
     %% Styles
-    classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000,font-weight=bold;
-    classDef data fill=#4FC3F7,stroke=#0277BD,stroke-width=2px,color=#fff,font-weight=bold;
-    classDef process fill=#AED581,stroke=#33691E,stroke-width=2px,color=#000,font-weight=bold;
-    classDef model fill=#BA68C8,stroke=#4A148C,stroke-width=2px,color=#fff,font-weight=bold;
-    classDef result fill=#FF8A65,stroke=#BF360C,stroke-width=2px,color=#fff,font-weight=bold;
-    classDef deploy fill=#90CAF9,stroke=#0D47A1,stroke-width=2px,color=#000,font-weight=bold;
+    classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000;
+    classDef data fill=#4FC3F7,stroke=#0277BD,stroke-width=2px,color=#fff;
+    classDef process fill=#AED581,stroke=#33691E,stroke-width=2px,color=#000;
+    classDef model fill=#BA68C8,stroke=#4A148C,stroke-width=2px,color=#fff;
+    classDef result fill=#FF8A65,stroke=#BF360C,stroke-width=2px,color=#fff;
+    classDef deploy fill=#90CAF9,stroke=#0D47A1,stroke-width=2px,color=#000;
+
+    class A step
+    class B data
+    class C process
+    class D model
+    class E result
+    class F deploy
+

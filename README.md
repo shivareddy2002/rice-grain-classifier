@@ -4,7 +4,7 @@ A **Deep Learning-based application** that classifies different types of rice fr
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
 Try the deployed application here:  
 [**Rice Grain Classifier Web App**](https://rice-grain-classifier-project.streamlit.app/)
@@ -50,8 +50,6 @@ Try the deployed application here:
 
 ---
 
----
-
 ## 🔮 How it Works
 
 1. Upload a rice grain image (JPG/PNG)  
@@ -79,12 +77,11 @@ Contributions are always welcome!
 3. Submit a pull request 🚀  
 
 ---
-
-## 📌 Author
-
-**Shiva Reddy**  
-- GitHub: [shivareddy2002](https://github.com/shivareddy2002)  
-- Location: Hyderabad, India  
+## 👨‍💻 Author
+- **LOMADA SIVA GANGI REDDY**  
+- 💡 B.Tech CSE (Data Science), RGMCET (2021–2025)  
+- 📍 Available for internships & Job offer 
+- 💌 Contact Me : 9346493592
+- 📍 [LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/) | [GitHub](https://github.com/shivareddy2002)
 - Interests: Python, Machine Learning, Data Science  
 
-"# rice-grain-classifier" 

@@ -5,18 +5,6 @@ Built with **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactiv
 
 ---
 
-## 📛 Badges  
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)  
-![Keras](https://img.shields.io/badge/Keras-DL-red?logo=keras&logoColor=white)  
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-ff4b4b?logo=streamlit&logoColor=white)  
-![License](https://img.shields.io/badge/License-MIT-green.svg)  
-![GitHub stars](https://img.shields.io/github/stars/shivareddy2002/Rice-Type-Classifier?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/shivareddy2002/Rice-Type-Classifier?style=social)  
-
----
-
 ## 🚀 Live Demo  
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Deployed-success?logo=streamlit&logoColor=white&color=ff4b4b)](https://rice-grain-classifier-project.streamlit.app/)  
@@ -78,7 +66,7 @@ Built with **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactiv
 ### 🔍  Resizing the uploaded image 
 ![Prediction Page](galary_rice/Screenshot%202025-09-21%20234630.png)  
 
-### 📊 Prediction with Confidence Score View  
+### 📊 Prediction with Confidence Score
 ![Confidence View](galary_rice/Screenshot%202025-09-21%20234755.png)  
 
 ---
@@ -114,3 +102,20 @@ Contributions are welcome!
 - [💼 LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/) [🌐 GitHub](https://github.com/shivareddy2002)  
 
 ---
+## 📌 Project Workflow  
+
+```mermaid
+flowchart LR
+    A[📥 Import Libraries]:::step --> B[🖼️ Load Image Dataset]:::data
+    B --> C[⚙️ Preprocessing<br/>(Augmentation, Normalization)]:::process
+    C --> D[🧠 Model Building<br/>(CNN)]:::model
+    D --> E[📊 Prediction Result]:::result
+    E --> F[🌐 Project Deployment<br/>(Streamlit/FastAPI)]:::deploy
+
+    %% Styles
+    classDef step fill=#FFD54F,stroke=#F57F17,stroke-width=2px,color=#000,font-weight=bold;
+    classDef data fill=#4FC3F7,stroke=#0277BD,stroke-width=2px,color=#fff,font-weight=bold;
+    classDef process fill=#AED581,stroke=#33691E,stroke-width=2px,color=#000,font-weight=bold;
+    classDef model fill=#BA68C8,stroke=#4A148C,stroke-width=2px,color=#fff,font-weight=bold;
+    classDef result fill=#FF8A65,stroke=#BF360C,stroke-width=2px,color=#fff,font-weight=bold;
+    classDef deploy fill=#90CAF9,stroke=#0D47A1,stroke-width=2px,color=#000,font-weight=bold;

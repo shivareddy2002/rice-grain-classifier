@@ -1,4 +1,6 @@
-# 🌾 Rice Type Classifier using CNN  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=180&section=header&text=🌾%20Rice%20Type%20Classifier%20Using%20CNN&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+</p>
 
 A **Deep Learning–based application** that classifies different types of rice grains from uploaded images.  
 Built with **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactive web interface.  
@@ -93,18 +95,6 @@ Contributions are welcome!
 
 ---
 
-## 👨‍💻 Author  
-
-**Lomada Siva Gangi Reddy**  
-- 🎓 B.Tech CSE (Data Science), RGMCET (2021–2025)  
-- 💡 Interests: Python | Machine Learning | Deep Learning | Data Science  
-- 📍 Open to **Internships & Job Offers**  
-
-📬 **Contact Me**:  
-- 📞 9346493592  
-- [💼 LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/) [🌐 GitHub](https://github.com/shivareddy2002)  
-
----
 
 ## 📌 Project Workflow  
 
@@ -124,5 +114,24 @@ flowchart LR
     style E fill:#FF8A65,stroke:#BF360C,stroke-width:2px,color:#fff;
     style F fill:#90CAF9,stroke:#0D47A1,stroke-width:2px,color:#000;
 
+```
 
+## 👨‍💻 Author  
+
+**Lomada Siva Gangi Reddy**  
+- 🎓 B.Tech CSE (Data Science), RGMCET (2021–2025)  
+- 💡 Interests: Python | Machine Learning | Deep Learning | Data Science  
+- 📍 Open to **Internships & Job Offers**
+
+ **Contact Me**:  
+
+- 📧 **Email**: lomadasivagangireddy3@gmail.com  
+- 📞 **Phone**: 9346493592  
+- 💼 [LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/)  🌐 [GitHub](https://github.com/shivareddy2002)  🚀 [Portfolio](https://lsgr-portfolio-pulse.lovable.app/)
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f9c74f,100:ff4b4b&height=120&section=footer"/>
+</p>
 

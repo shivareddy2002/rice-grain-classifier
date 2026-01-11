@@ -101,7 +101,7 @@ Contributions are welcome!
 ```mermaid
 flowchart LR
     A[Importing Libraries] --> B[Loading Image Dataset]
-    B --> C[Data Preprocessing: Augmentation, Normalization]
+    B --> C[Data Preprocessing: Normalization, Augmentation]
     C --> D[Model Building: CNN]
     D --> E[Prediction Result]
     E --> F[Project Deployment: Streamlit / FastAPI]

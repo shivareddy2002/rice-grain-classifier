@@ -132,6 +132,6 @@ flowchart LR
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f9c74f,100:ff4b4b&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=120&section=footer"/>
 </p>
 

@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://rice-grain-classifier-project.streamlit.app/",
+      "permanent": false
+    }
+  ]
+}

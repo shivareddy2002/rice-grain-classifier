@@ -135,3 +135,25 @@ flowchart LR
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=120&section=footer"/>
 </p>
 
+
+---
+
+## 🚢 Deployment Fix Notes
+
+If you saw errors like `DEPLOYMENT_NOT_FOUND` or Streamlit saying it failed to clone `rice-classifier`, use this checklist:
+
+1. In Streamlit Cloud, set repository to exactly: `shivareddy2002/rice-grain-classifier`
+2. Set **Branch** to `main`
+3. Set **Main file path** to `app.py`
+4. Reboot/redeploy the app after saving settings
+
+This repository now includes:
+- `runtime.txt` (pins Python 3.10 for TensorFlow compatibility)
+- `.streamlit/config.toml` (cloud-safe Streamlit server settings)
+- pinned `requirements.txt` versions for stable installs
+
+### Vercel
+
+This is a Streamlit app (best deployed on Streamlit Cloud), so Vercel deployments were failing.
+`vercel.json` now redirects all Vercel traffic to the Streamlit app URL.
+

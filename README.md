@@ -148,9 +148,12 @@ If you saw errors like `DEPLOYMENT_NOT_FOUND` or Streamlit saying it failed to c
 4. Reboot/redeploy the app after saving settings
 
 This repository now includes:
-- `runtime.txt` (pins Python 3.10 for TensorFlow compatibility)
 - `.streamlit/config.toml` (cloud-safe Streamlit server settings)
 - pinned `requirements.txt` versions for stable installs
+- `.python-version` and `runtime.txt` as Python-version hints for cloud builders
+
+> Note: Streamlit Cloud may provision Python 3.13 in some environments.
+> `tensorflow-cpu==2.20.0` is used to match currently available wheels there.
 
 ### Vercel
 

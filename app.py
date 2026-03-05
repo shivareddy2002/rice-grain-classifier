@@ -3,6 +3,15 @@ import streamlit as st
 from PIL import Image
 from model_utils import load_rice_model, load_class_map, predict_topk, get_model_input_size, preprocess_pil_image
 import os
+
+
+def _responsive_image(image_obj):
+    """Render image with compatibility for older/newer Streamlit versions."""
+    image_fn_vars = st.image.__code__.co_varnames
+    if "use_container_width" in image_fn_vars:
+        st.image(image_obj, use_container_width=True)
+    else:
+        st.image(image_obj, use_column_width=True)
 # --------------------
 # Page Config
 # --------------------
@@ -129,12 +138,12 @@ if uploaded_file is not None:
 
     with col1:
         st.markdown('<span class="highlight">📸 Uploaded Image</span>', unsafe_allow_html=True)
-        st.image(img, use_container_width=True)
+        _responsive_image(img)
 
     with col2:
         resized_img = preprocess_pil_image(img, input_size)
         st.markdown(f'<span class="highlight">🔍 Resized Image ({input_size})</span>', unsafe_allow_html=True)
-        st.image(resized_img[0], use_container_width=True)
+        _responsive_image(resized_img[0])
 
     st.markdown("---")
 

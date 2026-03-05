@@ -129,12 +129,12 @@ if uploaded_file is not None:
 
     with col1:
         st.markdown('<span class="highlight">📸 Uploaded Image</span>', unsafe_allow_html=True)
-        st.image(img, use_container_width=True)
+        st.image(img, use_column_width=True)
 
     with col2:
         resized_img = preprocess_pil_image(img, input_size)
         st.markdown(f'<span class="highlight">🔍 Resized Image ({input_size})</span>', unsafe_allow_html=True)
-        st.image(resized_img[0], use_container_width=True)
+        st.image(resized_img[0], use_column_width=True)
 
     st.markdown("---")
 

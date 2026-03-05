@@ -93,17 +93,6 @@ st.markdown("""
 st.markdown("<h1>🌾 Rice Type Classifier</h1>", unsafe_allow_html=True)
 st.write("A **Convolutional Neural Network (CNN)-powered** app to classify different rice grain varieties accurately.")
 
-
-def render_image_compat(image_obj):
-    """Render image across Streamlit versions without width-arg crashes."""
-    try:
-        st.image(image_obj, use_container_width=True)
-    except TypeError:
-        try:
-            st.image(image_obj, use_column_width=True)
-        except TypeError:
-            st.image(image_obj)
-
 # --------------------
 # Load Model
 # --------------------
@@ -135,22 +124,17 @@ st.markdown("<h2 id='demo'>🖼️ Demo</h2>", unsafe_allow_html=True)
 uploaded_file = st.file_uploader("📂 Upload a rice image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
-    try:
-        img = Image.open(uploaded_file).convert("RGB")
-    except Exception as e:
-        st.error(f"⚠️ Could not read uploaded image. Please upload a valid JPG/PNG file. Error: {e}")
-        st.stop()
-
+    img = Image.open(uploaded_file).convert("RGB")
     col1, col2 = st.columns([1, 1])
 
     with col1:
         st.markdown('<span class="highlight">📸 Uploaded Image</span>', unsafe_allow_html=True)
-        render_image_compat(img)
+        st.image(img, use_container_width=True)
 
     with col2:
         resized_img = preprocess_pil_image(img, input_size)
         st.markdown(f'<span class="highlight">🔍 Resized Image ({input_size})</span>', unsafe_allow_html=True)
-        render_image_compat(resized_img[0])
+        st.image(resized_img[0], use_container_width=True)
 
     st.markdown("---")
 

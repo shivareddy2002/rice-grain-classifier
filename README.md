@@ -137,27 +137,3 @@ flowchart LR
 
 
 ---
-
-## 🚢 Deployment Fix Notes
-
-If you saw errors like `DEPLOYMENT_NOT_FOUND` or Streamlit saying it failed to clone `rice-classifier`, use this checklist:
-
-1. In Streamlit Cloud, set repository to exactly: `shivareddy2002/rice-grain-classifier`
-2. Set **Branch** to `main`
-3. Set **Main file path** to `app.py`
-4. Reboot/redeploy the app after saving settings
-
-This repository now includes:
-- `.streamlit/config.toml` (cloud-safe Streamlit server settings)
-- pinned `requirements.txt` versions for stable installs
-- `.python-version` and `runtime.txt` as Python-version hints for cloud builders
-
-> Note: Streamlit Cloud may provision Python 3.13 in some environments.
-> `tensorflow-cpu==2.20.0` is used to match currently available wheels there.
-> For Python 3.13 compatibility, NumPy is constrained to `>=2.1,<2.4` (TensorFlow/`ml-dtypes` requires NumPy 2.x on 3.13).
-
-### Vercel
-
-This is a Streamlit app (best deployed on Streamlit Cloud), so Vercel deployments were failing.
-`vercel.json` now redirects all Vercel traffic to the Streamlit app URL.
-

@@ -5,7 +5,6 @@
 A **Deep Learning–based application** that classifies different types of rice grains from uploaded images.  
 Built with **Python**, **TensorFlow/Keras**, and **Streamlit** for an interactive web interface.  
 
-
 ---
 
 ## 🔗 Live Demo  

@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=180&section=header&text=🌾%20Rice%20Type%20Classifier%20Using%20CNN&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>

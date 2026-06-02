@@ -121,15 +121,16 @@ flowchart LR
 ## 👨‍💻 Author  
 
 **Lomada Siva Gangi Reddy**  
-- 🎓 B.Tech CSE (Data Science), RGMCET (2021–2025)  
-- 💡 Interests: Python | Machine Learning | Deep Learning | Data Science  
-- 📍 Open to **Internships & Job Offers**
+- 🎓 B.Tech CSE (Data Science), RGMCET (2021–2025) | CGPA: 8.3
+- 💡 Skills: Python, SQL, Snowflake, ETL, ML, DL, NLP, AI, Power BI 
+- 💼 SnowPro Core Certified | Data Engineering Intern (Boolean Data Pvt. Ltd.)
+- 📍 Hyderabad, India | Open to Data & AI Opportunities
 
  **Contact Me**:  
 
 - 📧 **Email**: lomadasivagangireddy3@gmail.com  
 - 📞 **Phone**: 9346493592  
-- 💼 [LinkedIn](https://www.linkedin.com/in/lomada-siva-gangi-reddy-a64197280/)  🌐 [GitHub](https://github.com/shivareddy2002)  🚀 [Portfolio](https://lsgr-portfolio-pulse.lovable.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sivareddy2002/)  🌐 [GitHub](https://github.com/shivareddy2002)  🚀 [Portfolio](https://sivareddy2002.vercel.app/)
 
 ---
 
